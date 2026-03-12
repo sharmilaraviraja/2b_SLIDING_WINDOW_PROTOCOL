@@ -25,7 +25,7 @@ while True:
 conn.close()
 Client Program (client.py)
 ![WhatsApp Image 2026-03-12 at 2 16 05 PM](https://github.com/user-attachments/assets/7e5c08ea-2160-475e-ad2a-1d9f9be141f6)
-#server
+
 import socket
 s = socket.socket()
 s.connect(('localhost', 8000))
