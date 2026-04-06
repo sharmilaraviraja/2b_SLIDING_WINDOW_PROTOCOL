@@ -13,7 +13,7 @@
 import socket
 
 # Create socket
-client = socket.socket()
+client = socket.socket() 
 client.connect(('localhost', 8000))
 
 while True:
